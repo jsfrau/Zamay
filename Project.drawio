@@ -1,0 +1,130 @@
+<mxfile host="app.diagrams.net" modified="2021-09-22T14:46:36.052Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="wKdAa0SmTAgyfaUaehDB" version="15.2.9" type="github">
+  <diagram id="b5EAPsaf1SXaFSAwkQ5M" name="Page-1">
+    <mxGraphModel dx="1240" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="1">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_Vxxh2CEA5BiCO8p6rzK-5" value="Студент" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="120" width="120" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="_Vxxh2CEA5BiCO8p6rzK-10" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="120" as="sourcePoint" />
+            <mxPoint x="260" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Vxxh2CEA5BiCO8p6rzK-12" value="Замена пропуска по истечении" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="260" y="70" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_Vxxh2CEA5BiCO8p6rzK-13" value="" style="endArrow=none;html=1;" edge="1" parent="1" target="_Vxxh2CEA5BiCO8p6rzK-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="120" as="sourcePoint" />
+            <mxPoint x="280" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Vxxh2CEA5BiCO8p6rzK-14" value="Вход в общежитие" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="260" y="110" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_Vxxh2CEA5BiCO8p6rzK-15" value="" style="endArrow=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="_Vxxh2CEA5BiCO8p6rzK-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="120" as="sourcePoint" />
+            <mxPoint x="280" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Vxxh2CEA5BiCO8p6rzK-16" value="Выход из общежития" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="275" y="140" width="175" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_Vxxh2CEA5BiCO8p6rzK-24" value="Коменда" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="460" width="120" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="_Vxxh2CEA5BiCO8p6rzK-25" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="460" as="sourcePoint" />
+            <mxPoint x="260" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Vxxh2CEA5BiCO8p6rzK-26" value="Узнать номер комнаты" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="260" y="410" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_Vxxh2CEA5BiCO8p6rzK-27" value="" style="endArrow=none;html=1;" edge="1" parent="1" target="_Vxxh2CEA5BiCO8p6rzK-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="460" as="sourcePoint" />
+            <mxPoint x="280" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Vxxh2CEA5BiCO8p6rzK-28" value="Контроль прибытия и отбытия студентов" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="260" y="450" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_Vxxh2CEA5BiCO8p6rzK-29" value="" style="endArrow=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="_Vxxh2CEA5BiCO8p6rzK-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="460" as="sourcePoint" />
+            <mxPoint x="280" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Vxxh2CEA5BiCO8p6rzK-30" value="Аннулирование пропусков" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="275" y="500" width="175" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_Vxxh2CEA5BiCO8p6rzK-31" value="Вахтер" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="680" y="120" width="120" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="_Vxxh2CEA5BiCO8p6rzK-32" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="750" y="120" as="sourcePoint" />
+            <mxPoint x="820" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Vxxh2CEA5BiCO8p6rzK-33" value="Выдача пропусков" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="820" y="80" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_Vxxh2CEA5BiCO8p6rzK-34" value="" style="endArrow=none;html=1;" edge="1" parent="1" target="_Vxxh2CEA5BiCO8p6rzK-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="750" y="120" as="sourcePoint" />
+            <mxPoint x="840" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Vxxh2CEA5BiCO8p6rzK-35" value="Контроль времени входа/выхода" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="820" y="110" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_Vxxh2CEA5BiCO8p6rzK-36" value="" style="endArrow=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="_Vxxh2CEA5BiCO8p6rzK-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="750" y="120" as="sourcePoint" />
+            <mxPoint x="840" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Vxxh2CEA5BiCO8p6rzK-37" value="Ведет списки" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="835" y="160" width="155" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_Vxxh2CEA5BiCO8p6rzK-38" value="Куратор" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="680" y="460" width="120" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="_Vxxh2CEA5BiCO8p6rzK-39" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="750" y="460" as="sourcePoint" />
+            <mxPoint x="820" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Vxxh2CEA5BiCO8p6rzK-40" value="Контроль посещения" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="820" y="415" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_Vxxh2CEA5BiCO8p6rzK-41" value="" style="endArrow=none;html=1;" edge="1" parent="1" target="_Vxxh2CEA5BiCO8p6rzK-42">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="750" y="460" as="sourcePoint" />
+            <mxPoint x="840" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Vxxh2CEA5BiCO8p6rzK-42" value="Запрос места проживания студента" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="820" y="450" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_Vxxh2CEA5BiCO8p6rzK-43" value="" style="endArrow=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="_Vxxh2CEA5BiCO8p6rzK-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="750" y="460" as="sourcePoint" />
+            <mxPoint x="840" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Vxxh2CEA5BiCO8p6rzK-44" value="Выход из общежития" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="835" y="500" width="175" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
