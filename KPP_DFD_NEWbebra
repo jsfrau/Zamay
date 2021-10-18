@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-18T22:44:45.980Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="H_I49QwMAmqa5v367L-K" version="15.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-18T22:46:16.103Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="Rzc4bkP3fNU_ssBZaIEh" version="15.4.3" type="github">
   <diagram id="jD6TNM_BQeUBffr7h1Vu" name="Страница 1">
-    <mxGraphModel dx="1848" dy="529" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1695" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -25,13 +25,13 @@
         <mxCell id="icmjAIZ1aDsR7eF-hHrB-7" value="&lt;span&gt;Замена пропуска по истечении&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="330" y="270" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="icmjAIZ1aDsR7eF-hHrB-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=classicThin;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="icmjAIZ1aDsR7eF-hHrB-11" target="icmjAIZ1aDsR7eF-hHrB-5">
+        <mxCell id="icmjAIZ1aDsR7eF-hHrB-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="icmjAIZ1aDsR7eF-hHrB-11" target="icmjAIZ1aDsR7eF-hHrB-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="icmjAIZ1aDsR7eF-hHrB-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=classicThin;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="icmjAIZ1aDsR7eF-hHrB-11" target="icmjAIZ1aDsR7eF-hHrB-7">
+        <mxCell id="icmjAIZ1aDsR7eF-hHrB-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="icmjAIZ1aDsR7eF-hHrB-11" target="icmjAIZ1aDsR7eF-hHrB-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="icmjAIZ1aDsR7eF-hHrB-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=classicThin;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="icmjAIZ1aDsR7eF-hHrB-11" target="icmjAIZ1aDsR7eF-hHrB-6">
+        <mxCell id="icmjAIZ1aDsR7eF-hHrB-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="icmjAIZ1aDsR7eF-hHrB-11" target="icmjAIZ1aDsR7eF-hHrB-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="icmjAIZ1aDsR7eF-hHrB-11" value="Вахтер" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
