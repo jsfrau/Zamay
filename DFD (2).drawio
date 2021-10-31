@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-31T13:28:20.247Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="Cd9jpsRBV0AvRFWrbQOc" version="15.5.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-31T13:40:05.134Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="2rCy6fH0buBYyPpyRQoG" version="15.5.8" type="github">
   <diagram id="jD6TNM_BQeUBffr7h1Vu" name="Страница 1">
-    <mxGraphModel dx="2249" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2012" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -38,8 +38,11 @@
         <mxCell id="icmjAIZ1aDsR7eF-hHrB-6" value="&lt;span&gt;Прийти в общежитие&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="260" y="220" width="90" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="OMxYR_F35L34IWSx0VG4-143" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="icmjAIZ1aDsR7eF-hHrB-7" target="icmjAIZ1aDsR7eF-hHrB-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="icmjAIZ1aDsR7eF-hHrB-7" value="&lt;span&gt;Сообщить вахтеру об утере пропуска&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="407.5" y="220" width="165" height="40" as="geometry" />
+          <mxGeometry x="-250" y="220" width="165" height="40" as="geometry" />
         </mxCell>
         <mxCell id="OMxYR_F35L34IWSx0VG4-98" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="icmjAIZ1aDsR7eF-hHrB-11" target="OMxYR_F35L34IWSx0VG4-94">
           <mxGeometry relative="1" as="geometry" />
@@ -224,6 +227,13 @@
         <mxCell id="OMxYR_F35L34IWSx0VG4-65" value="Заселить студента" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="565" y="735" width="120" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="OMxYR_F35L34IWSx0VG4-146" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="OMxYR_F35L34IWSx0VG4-66" target="OMxYR_F35L34IWSx0VG4-144">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="760" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="OMxYR_F35L34IWSx0VG4-66" value="База&lt;br&gt;&amp;nbsp;комнат" style="html=1;dashed=0;whitespace=wrap;shape=partialRectangle;right=0;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
           <mxGeometry x="710" y="745" width="100" height="30" as="geometry" />
         </mxCell>
@@ -237,7 +247,10 @@
           <mxGeometry x="-10" y="1265" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OMxYR_F35L34IWSx0VG4-89" value="Передать пропуск&lt;br&gt;вахтёру" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="572.5" y="550" width="105" height="50" as="geometry" />
+          <mxGeometry x="572.5" y="440" width="105" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OMxYR_F35L34IWSx0VG4-147" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="OMxYR_F35L34IWSx0VG4-91" target="icmjAIZ1aDsR7eF-hHrB-11">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OMxYR_F35L34IWSx0VG4-91" value="Предъявить&lt;br&gt;пропуск вахтёру" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-27.5" y="310" width="100" height="50" as="geometry" />
@@ -254,7 +267,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OMxYR_F35L34IWSx0VG4-95" value="Занести пропуск&lt;br&gt;в журнал" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-500" y="737.5" width="100" height="50" as="geometry" />
+          <mxGeometry x="-500" y="725" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="OMxYR_F35L34IWSx0VG4-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="OMxYR_F35L34IWSx0VG4-101" target="OMxYR_F35L34IWSx0VG4-103">
           <mxGeometry relative="1" as="geometry" />
@@ -322,7 +335,7 @@
         <mxCell id="OMxYR_F35L34IWSx0VG4-125" value="Записать время&lt;br&gt;покидания" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="365" y="660" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="OMxYR_F35L34IWSx0VG4-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="OMxYR_F35L34IWSx0VG4-129" target="OMxYR_F35L34IWSx0VG4-89">
+        <mxCell id="OMxYR_F35L34IWSx0VG4-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="OMxYR_F35L34IWSx0VG4-129" target="OMxYR_F35L34IWSx0VG4-144">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OMxYR_F35L34IWSx0VG4-129" value="Сделать пропуск" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
@@ -358,6 +371,12 @@
         </mxCell>
         <mxCell id="OMxYR_F35L34IWSx0VG4-141" value="База&lt;br&gt;&amp;nbsp;комнат" style="html=1;dashed=0;whitespace=wrap;shape=partialRectangle;right=0;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
           <mxGeometry x="-780" y="450" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OMxYR_F35L34IWSx0VG4-145" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="OMxYR_F35L34IWSx0VG4-144" target="OMxYR_F35L34IWSx0VG4-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OMxYR_F35L34IWSx0VG4-144" value="Выдать ключ&lt;br&gt;от комнаты" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="575" y="535" width="100" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
