@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-01T08:52:53.532Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="hzvC3tjIEbf5ywv9Jvdn" version="15.5.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-01T23:23:40.922Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="eDu2lg-d9QgsVlFbrImE" version="15.5.8" type="github">
   <diagram id="jD6TNM_BQeUBffr7h1Vu" name="Страница 1">
-    <mxGraphModel dx="2500" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2858" dy="1089" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -38,7 +38,7 @@
         <mxCell id="icmjAIZ1aDsR7eF-hHrB-6" value="&lt;span&gt;Прийти в общежитие&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="260" y="220" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="OMxYR_F35L34IWSx0VG4-143" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="icmjAIZ1aDsR7eF-hHrB-7" target="icmjAIZ1aDsR7eF-hHrB-11" edge="1">
+        <mxCell id="OMxYR_F35L34IWSx0VG4-143" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" source="icmjAIZ1aDsR7eF-hHrB-7" target="icmjAIZ1aDsR7eF-hHrB-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="icmjAIZ1aDsR7eF-hHrB-7" value="&lt;span&gt;Сообщить вахтеру об утере пропуска&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
@@ -51,6 +51,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OMxYR_F35L34IWSx0VG4-133" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" source="icmjAIZ1aDsR7eF-hHrB-11" target="OMxYR_F35L34IWSx0VG4-132" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5ZSdEjJ6vlAhVIFPBJSO-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="icmjAIZ1aDsR7eF-hHrB-11" target="OMxYR_F35L34IWSx0VG4-89">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="icmjAIZ1aDsR7eF-hHrB-11" value="Вахтер" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
@@ -82,7 +85,7 @@
             <mxPoint x="25.000000000000227" y="1070" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OMxYR_F35L34IWSx0VG4-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" source="icmjAIZ1aDsR7eF-hHrB-53" target="icmjAIZ1aDsR7eF-hHrB-69" edge="1">
+        <mxCell id="OMxYR_F35L34IWSx0VG4-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="icmjAIZ1aDsR7eF-hHrB-53" target="icmjAIZ1aDsR7eF-hHrB-69" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="icmjAIZ1aDsR7eF-hHrB-53" value="База&lt;br&gt;&amp;nbsp;комнат" style="html=1;dashed=0;whitespace=wrap;shape=partialRectangle;right=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
@@ -111,7 +114,7 @@
         <mxCell id="icmjAIZ1aDsR7eF-hHrB-69" value="&lt;span&gt;Запрос места&lt;/span&gt;&lt;br&gt;&lt;span&gt;проживания&lt;br&gt;&amp;nbsp;студента&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="355" y="1270" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="OMxYR_F35L34IWSx0VG4-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="pvDZKcuIj3iCTg0gMcYO-3" target="OMxYR_F35L34IWSx0VG4-80" edge="1">
+        <mxCell id="OMxYR_F35L34IWSx0VG4-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" parent="1" source="pvDZKcuIj3iCTg0gMcYO-3" target="OMxYR_F35L34IWSx0VG4-80" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="80" y="1350" as="targetPoint" />
           </mxGeometry>
@@ -249,7 +252,7 @@
         <mxCell id="OMxYR_F35L34IWSx0VG4-89" value="Передать пропуск&lt;br&gt;вахтёру" style="html=1;dashed=0;whitespace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="572.5" y="440" width="105" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="OMxYR_F35L34IWSx0VG4-147" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="OMxYR_F35L34IWSx0VG4-91" target="icmjAIZ1aDsR7eF-hHrB-11" edge="1">
+        <mxCell id="OMxYR_F35L34IWSx0VG4-147" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" source="OMxYR_F35L34IWSx0VG4-91" target="icmjAIZ1aDsR7eF-hHrB-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OMxYR_F35L34IWSx0VG4-91" value="Предъявить&lt;br&gt;пропуск вахтёру" style="html=1;dashed=0;whitespace=wrap;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
