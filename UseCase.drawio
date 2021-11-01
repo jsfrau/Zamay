@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-01T08:42:18.539Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="dDAcK-D0cRFsB7jiP-l2" version="15.5.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-01T23:23:56.190Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="akNKTrjWBCwqGxSywDQ2" version="15.5.8" type="github">
   <diagram id="b5EAPsaf1SXaFSAwkQ5M" name="Page-1">
     <mxGraphModel dx="1185" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -64,6 +64,9 @@
         <mxCell id="DnC9gURI1vXdoshHHPcy-10" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;" parent="1" source="_Vxxh2CEA5BiCO8p6rzK-38" target="_Vxxh2CEA5BiCO8p6rzK-42" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="nZQGaKwp-928BufK4dIE-5" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="_Vxxh2CEA5BiCO8p6rzK-38" target="nZQGaKwp-928BufK4dIE-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="_Vxxh2CEA5BiCO8p6rzK-38" value="Куратор" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="736.25" y="400" width="30" height="60" as="geometry" />
         </mxCell>
@@ -98,6 +101,9 @@
         </mxCell>
         <mxCell id="nZQGaKwp-928BufK4dIE-1" value="Проверка пропуска" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="453.75" y="90" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nZQGaKwp-928BufK4dIE-4" value="" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="476.25" y="500" width="166.25" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
