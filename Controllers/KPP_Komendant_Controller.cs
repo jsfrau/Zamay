@@ -11,30 +11,15 @@ namespace Zamay.Controllers
     [Route("[controller]")]
     public class Komendant : ControllerBase
     {
-        [HttpGet("ListOfRooms")]
-        public string ListOfRooms(string str)
+        [HttpGet("Settlement of students")]
+        public string SettlementOfStudents(string str)
         {
-            return str; // Метод для ведения списка комнат
+            return str; // Метод для заселения студента
         }
-        [HttpGet("ListOfStudents")]
-        public string ListOfStudents(string str)
+        [HttpGet("Issue a pass")]
+        public string IssueAPass(string str)
         {
-            return str; // Метод для ведения списка проживающих
-        }
-        [HttpGet("RoomNumber")]
-        public string RoomNumber(string str)
-        {
-            return str; // Метод для того чтобы узнать в какой комнате живет студент
-        }
-        [HttpGet("TimeControl")]
-        public string TimeControl(string str)
-        {
-            return str; // Метод для контроля времени прибытия и отбытия
-        }
-        [HttpGet("PassDelete")]
-        public string PassDelete(string str)
-        {
-            return str; // Метод для аннулирования пропуска
+            return str; // Метод для выписания пропуска
         }
     }
 }
