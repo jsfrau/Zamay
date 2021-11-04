@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-04T09:20:19.724Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="12bdIRr5Gccwm2PkuLEQ" version="15.5.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-04T11:14:50.959Z" agent="5.0 (Windows)" etag="MeBfmJOZ0ykpZIj8kvjQ" version="15.6.8" type="github">
   <diagram id="jD6TNM_BQeUBffr7h1Vu" name="Страница 1">
-    <mxGraphModel dx="2249" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2903" dy="1030" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -39,6 +39,9 @@
           <mxGeometry x="260" y="220" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="OMxYR_F35L34IWSx0VG4-143" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" source="icmjAIZ1aDsR7eF-hHrB-7" target="icmjAIZ1aDsR7eF-hHrB-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J3TaBKTzx61Mu4GdwZVc-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="icmjAIZ1aDsR7eF-hHrB-7" target="J3TaBKTzx61Mu4GdwZVc-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="icmjAIZ1aDsR7eF-hHrB-7" value="&lt;span&gt;Сообщить вахтеру об утере пропуска&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
@@ -322,6 +325,9 @@
         </mxCell>
         <mxCell id="OMxYR_F35L34IWSx0VG4-144" value="Выдать ключ&lt;br&gt;от комнаты" style="html=1;dashed=0;whitespace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="575" y="535" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="J3TaBKTzx61Mu4GdwZVc-1" value="Желающие заселиться" style="html=1;dashed=0;whitespace=wrap;shape=partialRectangle;right=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-450" y="250" width="160" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
