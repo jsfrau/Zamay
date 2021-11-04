@@ -9,17 +9,22 @@ namespace Zamay.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class Student : ControllerBase
+    public class Visitor : ControllerBase
     {
-        [HttpGet("EnterOrExit")]
-        public string EnterOrExit(string str)
+        [HttpGet("Enter")]
+        public string Enter(string str)
         {
             return str; // Метод для входа выхода
         }
-        [HttpGet("PassChange")]
-        public string PassChange(string str)
+        [HttpGet("Exit")]
+        public string Exit(string str)
         {
-            return str; // Метод для замены пропуска
+            return str; // Метод для выхода
+        }
+        [HttpGet("Restoring a pass")]
+        public string RestoringAPass(string str)
+        {
+            return str; // Метод для восстановления пропуска
         }
         [HttpGet("Register")]
         public string Register(string str)
