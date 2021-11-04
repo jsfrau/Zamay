@@ -37,5 +37,10 @@
 
 -создание информационного сайта обеспечивающего возможность входа и выхода из общежития, регистрацию в нём и выдачу пропусков;
 
-![Zamay](https://github.com/jsfrau/Zamay/blob/main/UseCase.drawio.svg)
-                                                                  Рисунок 1 - Use Case диаграмма
+<p align="center">
+  <img src="https://github.com/jsfrau/Zamay/blob/main/UseCase.drawio.svg" alt="Material Bread logo">
+</p>
+<p align="center">  
+  Рисунок 1 - Use Case диаграмма
+</p>
+                                                                  
