@@ -8,7 +8,7 @@ using Microsoft.Extensions.Logging;
 namespace Zamay.Controllers
 {
     [ApiController]
-    [Route("controller/watchman")]
+    [Route("/watchman")]
     public class Vahter : ControllerBase
     {
         [HttpGet("Exit-Or-Enter-Time-Register")]
