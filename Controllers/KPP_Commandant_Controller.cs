@@ -8,7 +8,7 @@ using Microsoft.Extensions.Logging;
 namespace Zamay.Controllers
 {
     [ApiController]
-    [Route("controller/commandant")]
+    [Route("/commandant")]
     public class Komendant : ControllerBase
     {
         [HttpGet("Settlement-of-students")]
