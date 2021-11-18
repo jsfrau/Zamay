@@ -56,7 +56,7 @@
 
 Проблема :
 
--быстрый, регестрируемый вход и выход в общежити;
+-быстрый, регестрируемый вход и выход из общежития;
 
 <p align="center">
   <img src="https://github.com/jsfrau/Zamay/blob/main/UseCase.drawio.svg" alt="Pic">
