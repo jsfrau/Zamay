@@ -8,7 +8,7 @@ using Microsoft.Extensions.Logging;
 namespace Zamay.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("/visitor")]
     public class Visitor : ControllerBase
     {
         [HttpGet("Enter")]
@@ -21,7 +21,7 @@ namespace Zamay.Controllers
         {
             return str; // Метод для выхода
         }
-        [HttpGet("Restoring a pass")]
+        [HttpGet("Restoring-pass")]
         public string RestoringAPass(string str)
         {
             return str; // Метод для восстановления пропуска
