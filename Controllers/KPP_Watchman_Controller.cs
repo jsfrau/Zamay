@@ -8,16 +8,16 @@ using Microsoft.Extensions.Logging;
 namespace Zamay.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("controller/watchman")]
     public class Vahter : ControllerBase
     {
-        [HttpGet("ExitOrEnterTimeRegister")]
+        [HttpGet("Exit-Or-Enter-Time-Register")]
         public string ExitOrEnterTimeRegister(string str)
         {
             return str; // Метод для регистрации времени прибытия или отбытия
         }
-        [HttpGet("IssuingApass")]
-        public string IssuingApass(string str)
+        [HttpGet("Issuing-pass")]
+        public string IssuingPass(string str)
         {
             return str; // Метод для выдачи пропуска
         }
