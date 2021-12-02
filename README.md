@@ -84,4 +84,4 @@
 
 Рисунок 2 - Data Flow диаграмма
 
-![image](https://github.com/jsfrau/Zamay/blob/main/Pictures/KPP_ER.svg)
+
