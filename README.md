@@ -78,7 +78,8 @@
 Рисунок 1 - Use Case диаграмма
 
 Затем, используя эти наброски, нарисуем DFD диаграмму для лучшего представления движения данных в нашей области.
+Для наглядности, все действующие лица выделены своими цветами. Посетитель(красный) Вахтёр(синий) Комендант(желтый)
 
-![image](https://github.com/jsfrau/Zamay/blob/main/KPP_DFD.drawip.svg)
+![image](https://github.com/jsfrau/Zamay/blob/main/KPP_DFD.drawio.svg)
 
 Рисунок 2 - Data Flow диаграмма
