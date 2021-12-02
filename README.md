@@ -56,18 +56,14 @@
 
 Проблема :
 
--быстрый, регестрируемый вход и выход из общежития;
+-быстрый, регестрируемый вход и выход из общежития;<a name="Systemdesign"/>
 
-<p align="center">
-  <img src="https://github.com/jsfrau/Zamay/blob/main/UseCase.drawio.svg" alt="Pic">
-</p>
-<p align="center">  
+
+![image](https://github.com/jsfrau/Zamay/blob/main/UseCase.drawio.svg) 
+
   Рисунок 1 - Use Case диаграмма
-</p>
-<p align="center">
-  <img src="https://github.com/jsfrau/Zamay/blob/main/KPP DFD.drawio.svg" alt="Pic">  
-</p>
-<p align="center">  
+  
+![image](https://github.com/jsfrau/Zamay/blob/main/(KPP DFD.drawio.svg)) 
+
   Рисунок 2 - Data Flow диаграмма
-</p>
                                                                   
