@@ -1,11 +1,11 @@
 using System;
-using Zamay.Domains;
+using Zamay.Domain;
 
-namespace Zamay.Domains
+namespace Zamay.Domain
 {
     public class Pass
     {
-        public int PassNumber;
-        public Room Room;
+        public int PassNumber { get; set; } 
+        public Room Room { get; set; }
     }
 }

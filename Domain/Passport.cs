@@ -1,12 +1,12 @@
 using System;
-using Zamay.Domains;
+using Zamay.Domain;
 
-namespace Zamay.Domains
+namespace Zamay.Domain
 {
     public class Passport
     {
-        public int PassportNumber;
-        public char SNP;
-        public char Registration;
+        public int PassportNumber { get; set; }
+        public char SNP { get; set; }
+        public char Registration { get; set; }
     }
 }

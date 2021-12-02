@@ -1,13 +1,13 @@
 using System;
-using Zamay.Domains;
+using Zamay.Domain;
 
-namespace Zamay.Domains
+namespace Zamay.Domain
 {
     public class Document
     {
-        public int DocumentNumber;
-        public Passport Passport;
-        public int INN;
-        public bool MedicalReport;
+        public int DocumentNumber { get; set; }
+        public Passport Passport { get; set; }
+        public int INN { get; set; }
+        public bool MedicalReport { get; set; }
     }
 }

@@ -1,7 +1,7 @@
 using System;
 
 
-namespace Zamay.Domains
+namespace Zamay.Domain
 {
     public class Room
     {

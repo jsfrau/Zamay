@@ -1,11 +1,11 @@
 using System;
 
 
-namespace Zamay.Domains
+namespace Zamay.Domain
 {
     public class SettlingIn
     {
-    public int NumberRequest;
-	public int Visitor;
+    public int NumberRequest { get; set; }
+        public int Visitor { get; set; }
     }
 }

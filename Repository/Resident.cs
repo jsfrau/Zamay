@@ -1,7 +1,7 @@
 using System;
-using Zamay.Domains;
+using Zamay.Domain;
 
-namespace Zamay.Domains
+namespace Zamay.Domain
 {
     public class Resident
     {

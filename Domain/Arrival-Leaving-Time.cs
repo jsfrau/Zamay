@@ -1,13 +1,13 @@
 using System;
-using Zamay.Domains;
+using Zamay.Domain;
 
-namespace Zamay.Domains
+namespace Zamay.Domain
 {
     public class ArrivalLeavingTime
     {
-        public int ArrivalLeavingTimeNumber;
-        public DateTime EnterTime;
-        public DateTime LeaveTime;
-        public Pass Pass;
+        public int ArrivalLeavingTimeNumber { get; set; }
+        public DateTime EnterTime { get; set; }
+        public DateTime LeaveTime { get; set; }
+        public Pass Pass { get; set; }
     }
 }

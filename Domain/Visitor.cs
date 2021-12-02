@@ -1,11 +1,11 @@
 using System;
-using Zamay.Domains;
+using Zamay.Domain;
 
-namespace Zamay.Domains
+namespace Zamay.Domain
 {
     public class Visitor
     {
-        public int VisitorNumber;
-        public Document Documents;
+        public int VisitorNumber { get; set; }
+        public Document Documents { get; set; }
     }
 }
