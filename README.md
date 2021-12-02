@@ -85,3 +85,10 @@
 Рисунок 2 - Data Flow диаграмма
 
 ![image](https://github.com/jsfrau/Zamay/blob/main/Pictures/KPP_ER.svg)
+
+На основе этой диаграммы мы создаем классы в среде C# и описываем их с параметрами и их типами данных. Для этого мы создаем контроллер, определяем его в определенное простраство имен и описываем класс:
+![image](https://user-images.githubusercontent.com/91096338/144388490-6c1444ef-a54d-448e-bc9b-d6aa5121822b.png)
+
+Создаем такие классы для всех сущностей из ER - диаграммы:
+
+![image](https://user-images.githubusercontent.com/91096338/144388523-524a8295-da67-438e-a3f2-212fdf86ea5d.png)
