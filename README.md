@@ -73,13 +73,15 @@
 
 Начинается разработка с рисования use case диаграммы, на которой будут находится основные действующие лица.
 
-![image](https://github.com/jsfrau/Zamay/blob/main/UseCase.drawio.svg)
+![image](https://github.com/jsfrau/Zamay/blob/main/Pictures/UseCase.drawio.svg)
 
 Рисунок 1 - Use Case диаграмма
 
 Затем, используя эти наброски, нарисуем DFD диаграмму для лучшего представления движения данных в нашей области.
 Для наглядности, все действующие лица выделены своими цветами. Посетитель(красный) Вахтёр(синий) Комендант(желтый)
 
-![image](https://github.com/jsfrau/Zamay/blob/main/KPP_DFD.drawio.svg)
+![image](https://github.com/jsfrau/Zamay/blob/main/Pictures/KPP_DFD.drawio.svg)
 
 Рисунок 2 - Data Flow диаграмма
+
+![image](https://github.com/jsfrau/Zamay/blob/main/Pictures/KPP_ER.svg)
