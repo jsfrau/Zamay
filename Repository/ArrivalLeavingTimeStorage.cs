@@ -29,3 +29,4 @@ namespace Zamay.Domain
             return ArrivalLeavingTimes.Remove(ArrivalLeavingTimeNumber);
         }
     }
+}
