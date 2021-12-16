@@ -4,22 +4,26 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using Zamay;
+using Zamay.Repository;
+using Zamay.Domain;
 
 namespace Zamay.Controllers
 {
     [ApiController]
     [Route("/visitor")]
-    public class Visitor : ControllerBase
+    public class VisitorController : ControllerBase
     {
-        [HttpGet("Enter")]
-        public string Enter(string str)
+        [HttpPut("Enter")]
+        public Visitor Create(Visitor visitor)
         {
-            return str; // Метод для входа выхода
+            Storage.VisitorStorage.Create(visitor);
+            return visitor; // Метод для входа
         }
         [HttpGet("Exit")]
-        public string Exit(string str)
+        public Visitor Read(int VisitorNumber)
         {
-            return str; // Метод для выхода
+            return Storage.VisitorStorage.Read(VisitorNumber); // Метод для выхода
         }
         [HttpGet("Restoring-pass")]
         public string RestoringAPass(string str)

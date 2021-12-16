@@ -3,7 +3,7 @@ using System;
 
 namespace Zamay.Domain
 {
-    public class Room
+    public class RoomStorage
     {
         public int RoomNumber;
 	    public int NumberOfSeats;

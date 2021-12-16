@@ -3,7 +3,7 @@ using Zamay.Domain;
 
 namespace Zamay.Domain
 {
-    public class Passport
+    public class PassportStorage
     {
         public int PassportNumber;
         public char SNP;

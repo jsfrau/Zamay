@@ -3,7 +3,7 @@ using Zamay.Domain;
 
 namespace Zamay.Domain
 {
-    public class PeriodOfStay
+    public class PeriodOfStayStorage
     {
         public int PeriodCode;
         public Resident Resident;

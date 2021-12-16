@@ -3,7 +3,7 @@ using Zamay.Domain;
 
 namespace Zamay.Domain
 {
-    public class Pass
+    public class PassStorage
     {
         public int PassNumber;
         public Room Room;
