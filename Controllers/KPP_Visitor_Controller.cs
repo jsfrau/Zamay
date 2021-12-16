@@ -15,10 +15,10 @@ namespace Zamay.Controllers
     public class VisitorController : ControllerBase
     {
         [HttpPut("Enter")]
-        public Visitor Create(Visitor visitor)
-        {
-            return visitor;
-        }
+        //public Visitor Create(Visitor visitor)
+        //{
+        //    return visitor;
+        //}
         [HttpGet("Exit")]
         public Visitor Read(int VisitorNumber)
         {
@@ -29,8 +29,8 @@ namespace Zamay.Controllers
         {
             return str; // Метод для восстановления пропуска
         }
-        [HttpGet("Register")]
-        public string Register(string str)
+        [HttpPut("Register")]
+        public Visitor Create(Visitor visitor)
         {
             Storage.VisitorStorage.Create(visitor);
             return visitor; // Метод для регистрации в общежитии
