@@ -17,8 +17,7 @@ namespace Zamay.Controllers
         [HttpPut("Enter")]
         public Visitor Create(Visitor visitor)
         {
-            Storage.VisitorStorage.Create(visitor);
-            return visitor; // Метод для входа
+            return visitor;
         }
         [HttpGet("Exit")]
         public Visitor Read(int VisitorNumber)
@@ -33,7 +32,8 @@ namespace Zamay.Controllers
         [HttpGet("Register")]
         public string Register(string str)
         {
-            return str; // Метод для регистрации в общежитии
+            Storage.VisitorStorage.Create(visitor);
+            return visitor; // Метод для регистрации в общежитии
         }
     }
 }
