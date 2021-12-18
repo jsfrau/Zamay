@@ -10,7 +10,8 @@ namespace Zamay.Repository
     public class Storage
     {
         public static VisitorStorage VisitorStorage { get; } = new VisitorStorage();
-        public static ArrivalLeavingTimeStorage ArrivalLeavingTimeStorage { get; } = new ArrivalLeavingTimeStorage();
+        public static ArrivalTimeStorage ArrivalTimeStorage { get; } = new ArrivalTimeStorage();
+        public static LeavingTimeStorage LeavingTimeStorage { get; } = new LeavingTimeStorage();
         public static DocumentStorage DocumentStorage { get; } = new DocumentStorage();
         public static PassportStorage PassportStorage { get; } = new PassportStorage();
         public static PassStorage PassStorage { get; } = new PassStorage();

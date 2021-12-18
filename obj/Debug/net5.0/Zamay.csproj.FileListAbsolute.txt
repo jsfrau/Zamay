@@ -11,7 +11,6 @@ C:\Users\User\Documents\GitHub\Zamay\bin\Debug\net5.0\Microsoft.OpenApi.dll
 C:\Users\User\Documents\GitHub\Zamay\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\User\Documents\GitHub\Zamay\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\User\Documents\GitHub\Zamay\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\User\Documents\GitHub\Zamay\obj\Debug\net5.0\Zamay.csprojAssemblyReference.cache
 C:\Users\User\Documents\GitHub\Zamay\obj\Debug\net5.0\Zamay.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\User\Documents\GitHub\Zamay\obj\Debug\net5.0\Zamay.AssemblyInfoInputs.cache
 C:\Users\User\Documents\GitHub\Zamay\obj\Debug\net5.0\Zamay.AssemblyInfo.cs
@@ -27,3 +26,4 @@ C:\Users\User\Documents\GitHub\Zamay\obj\Debug\net5.0\Zamay.dll
 C:\Users\User\Documents\GitHub\Zamay\obj\Debug\net5.0\ref\Zamay.dll
 C:\Users\User\Documents\GitHub\Zamay\obj\Debug\net5.0\Zamay.pdb
 C:\Users\User\Documents\GitHub\Zamay\obj\Debug\net5.0\Zamay.genruntimeconfig.cache
+C:\Users\User\Documents\GitHub\Zamay\obj\Debug\net5.0\Zamay.csproj.AssemblyReference.cache

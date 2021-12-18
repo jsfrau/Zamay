@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
-using Zamay;
-using Zamay.Repository;
+﻿using Microsoft.AspNetCore.Mvc;
 using Zamay.Domain;
+using Zamay.Repository;
 
 namespace Zamay.Controllers
 {
@@ -15,20 +9,25 @@ namespace Zamay.Controllers
     public class VisitorController : ControllerBase
     {
         [HttpPut("Enter")]
-        //public Visitor Create(Visitor visitor)
-        //{
-        //    return visitor;
-        //}
-        [HttpGet("Exit")]
-        public Visitor Read(int VisitorNumber)
+        public ArrivalTime Create(ArrivalTime arrivalTime)
         {
-            return Storage.VisitorStorage.Read(VisitorNumber); // Метод для выхода
+            Storage.ArrivalTimeStorage.Create(arrivalTime);
+            return arrivalTime;
         }
+
+        [HttpPut("Exit")]
+        public LeavingTime Read(LeavingTime leavingTime)
+        {
+            Storage.LeavingTimeStorage.Create(leavingTime);
+            return leavingTime; // Метод для выхода
+        }
+
         [HttpGet("Restoring-pass")]
         public string RestoringAPass(string str)
         {
             return str; // Метод для восстановления пропуска
         }
+
         [HttpPut("Register")]
         public Visitor Create(Visitor visitor)
         {
