@@ -1,0 +1,59 @@
+﻿<changelist name="Uncommitted_changes_before_Update_at_19_12_2021_0_36_[Changes]" date="1639863416107" recycled="false" toDelete="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/.idea.Zamay/.idea/shelf/Uncommitted_changes_before_Update_at_19_12_2021_0_36_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 19.12.2021 0:36 [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="obj/Debug/net5.0/ref/Zamay.dll" />
+    <option name="AFTER_PATH" value="obj/Debug/net5.0/ref/Zamay.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.Zamay/.idea/shelf/Uncommitted_changes_before_Update_at_19_12_2021_0_36_[Changes]/Zamay.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="obj/Debug/net5.0/Zamay.dll" />
+    <option name="AFTER_PATH" value="obj/Debug/net5.0/Zamay.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.Zamay/.idea/shelf/Uncommitted_changes_before_Update_at_19_12_2021_0_36_[Changes]/Zamay1.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="obj/Debug/net5.0/Zamay.csprojAssemblyReference.cache" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="bin/Debug/net5.0/Zamay.dll" />
+    <option name="AFTER_PATH" value="bin/Debug/net5.0/Zamay.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.Zamay/.idea/shelf/Uncommitted_changes_before_Update_at_19_12_2021_0_36_[Changes]/Zamay2.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".vs/Zamay/DesignTimeBuild/.dtbcache.v2" />
+    <option name="AFTER_PATH" value=".vs/Zamay/DesignTimeBuild/.dtbcache.v2" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.Zamay/.idea/shelf/Uncommitted_changes_before_Update_at_19_12_2021_0_36_[Changes]/.dtbcache.v2" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="obj/project.nuget.cache" />
+    <option name="AFTER_PATH" value="obj/project.nuget.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.Zamay/.idea/shelf/Uncommitted_changes_before_Update_at_19_12_2021_0_36_[Changes]/project.nuget.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="obj/Debug/net5.0/Zamay.assets.cache" />
+    <option name="AFTER_PATH" value="obj/Debug/net5.0/Zamay.assets.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.Zamay/.idea/shelf/Uncommitted_changes_before_Update_at_19_12_2021_0_36_[Changes]/Zamay.assets.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="bin/Debug/net5.0/ref/Zamay.dll" />
+    <option name="AFTER_PATH" value="bin/Debug/net5.0/ref/Zamay.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.Zamay/.idea/shelf/Uncommitted_changes_before_Update_at_19_12_2021_0_36_[Changes]/Zamay3.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="obj/Debug/net5.0/Zamay.csproj.CoreCompileInputs.cache" />
+    <option name="AFTER_PATH" value="obj/Debug/net5.0/Zamay.csproj.CoreCompileInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.Zamay/.idea/shelf/Uncommitted_changes_before_Update_at_19_12_2021_0_36_[Changes]/Zamay.csproj.CoreCompileInputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="obj/Debug/net5.0/Zamay.pdb" />
+    <option name="AFTER_PATH" value="obj/Debug/net5.0/Zamay.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.Zamay/.idea/shelf/Uncommitted_changes_before_Update_at_19_12_2021_0_36_[Changes]/Zamay.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="bin/Debug/net5.0/Zamay.pdb" />
+    <option name="AFTER_PATH" value="bin/Debug/net5.0/Zamay.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.Zamay/.idea/shelf/Uncommitted_changes_before_Update_at_19_12_2021_0_36_[Changes]/Zamay1.pdb" />
+  </binary>
+</changelist>
