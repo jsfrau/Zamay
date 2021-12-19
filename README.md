@@ -94,3 +94,118 @@
 Создаем такие классы для всех сущностей из ER - диаграммы:
 
 ![img.png](img.png)
+
+Пример кода класса "Посетитель":
+
+```csharp
+namespace Zamay.Domain
+{
+    public class Visitor
+    {
+        public int VisitorNumber { get; set; }
+        public Document Documents { get; set; }
+        public bool check { get; set; }
+    }
+}
+```
+
+Пример кода класса "Время входа":
+
+```csharp
+using System;
+
+namespace Zamay.Domain
+{
+    public class ArrivalTime
+    {
+        public int ArrivalTimeNumber { get; set; }
+        public DateTime EnterTime { get; set; }
+        public Pass Pass { get; set; }
+    }
+}
+```
+
+***
+
+Так же для работы приложения были разработаны и созданы хранилища, позволяющие хранить, актуализировать и использовать информацию (Рис 5)
+
+![img_2.png](img_2.png)
+Рис.5
+
+Пример кода хранилища посетителей :
+
+```csharp
+using System.Collections.Generic;
+using Zamay.Domain;
+
+namespace Zamay.Repository
+{
+    public class VisitorStorage
+    {
+        private Dictionary<int, Visitor> visitors { get; } = new();
+
+        public void Create(Visitor visitor)
+        {
+            visitors.Add(visitor.VisitorNumber, visitor);
+        }
+
+        public Visitor Read(int visitorNumber)
+        {
+            return visitors[visitorNumber];
+        }
+
+        public Visitor Update(int visitorNumber, Visitor newVisitor)
+        {
+            visitors[visitorNumber] = newVisitor;
+            return visitors[visitorNumber];
+        }
+
+        public bool Delete(int visitorNumber)
+        {
+            return visitors.Remove(visitorNumber);
+        }
+
+        public bool Check(int visitorNumber)
+        {
+            if (visitors[visitorNumber] != null)
+                return true;
+            return false;
+        }
+    }
+}
+```
+
+Пример кода хранилища входов :
+
+```csharp
+using System.Collections.Generic;
+
+namespace Zamay.Domain
+{
+    public class ArrivalTimeStorage
+    {
+        private Dictionary<int, ArrivalTime> ArrivalTimes { get; } = new();
+
+        public void Create(ArrivalTime arrivalTime)
+        {
+            ArrivalTimes.Add(arrivalTime.ArrivalTimeNumber, arrivalTime);
+        }
+
+        public ArrivalTime Read(int arrivalTimeNumber)
+        {
+            return ArrivalTimes[arrivalTimeNumber];
+        }
+
+        public ArrivalTime Update(int arrivalTimeNumber, ArrivalTime newArrivalTime)
+        {
+            ArrivalTimes[arrivalTimeNumber] = newArrivalTime;
+            return ArrivalTimes[arrivalTimeNumber];
+        }
+
+        public bool Delete(int arrivalTimeNumber)
+        {
+            return ArrivalTimes.Remove(arrivalTimeNumber);
+        }
+    }
+}
+```
