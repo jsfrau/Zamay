@@ -88,12 +88,15 @@
 ![image](https://github.com/jsfrau/Zamay/blob/main/Pictures/KPP_ER.svg)
 
 На основе этой диаграммы мы создаем классы в среде C# и описываем их с параметрами и их типами данных. Для этого мы
-создаем контроллер, определяем его в определенное простраство имен и описываем класс:
+создаем его, определяем в простраство имен и описываем класс:
 ![img_1.png](img_1.png)
+Рисунок 3 - класс
 
 Создаем такие классы для всех сущностей из ER - диаграммы:
 
 ![img.png](img.png)
+
+Рисунок 4 - список классов
 
 Пример кода класса "Посетитель":
 
@@ -127,10 +130,11 @@ namespace Zamay.Domain
 
 ***
 
-Так же для работы приложения были разработаны и созданы хранилища, позволяющие хранить, актуализировать и использовать информацию (Рис 5)
+Так же для работы приложения были разработаны и созданы хранилища, позволяющие хранить, актуализировать и использовать информацию
 
 ![img_2.png](img_2.png)
-Рис.5
+
+Рисунок 5 - Список хранилищ
 
 Пример кода хранилища посетителей :
 
@@ -209,3 +213,72 @@ namespace Zamay.Domain
     }
 }
 ```
+
+***
+
+Затем созадём контроллеры, которые будут взаимодействовать с ранее созданными классами :
+
+![img_3.png](img_3.png)
+
+Пример кода контроллера посетителя:
+```csharp
+using Microsoft.AspNetCore.Mvc;
+using Zamay.Domain;
+using Zamay.Repository;
+
+namespace Zamay.Controllers
+{
+    [ApiController]
+    [Route("/visitor")]
+    public class VisitorController : ControllerBase
+    {
+        [HttpPut("Register")]
+        public Visitor Create(Visitor visitor)
+        {
+            Storage.VisitorStorage.Create(visitor);
+            return visitor; // Метод для регистрации в общежитии
+        }
+    }
+}
+```
+
+Пример кода контроллера вахтера:
+```csharp
+using Microsoft.AspNetCore.Mvc;
+using Zamay.Domain;
+using Zamay.Repository;
+using static System.DateTime;
+
+namespace Zamay.Controllers
+{
+    [ApiController]
+    [Route("/watchman")]
+    public class Vahter : ControllerBase
+    {
+        [HttpPatch("RestorePass")]
+        public Pass RestorePass(int PassNumber, Pass newPass)
+        {
+            return Storage.PassStorage.Update(PassNumber, newPass);
+        }
+
+        [HttpPut("LeavingTimeRegister")]
+        public string Create(LeavingTime leavingTime, int visitorNumber)
+        {
+            if (!Storage.VisitorStorage.Check(visitorNumber)) return "Scam";
+            leavingTime.LeaveTime = Now;
+            Storage.LeavingTimeStorage.Create(leavingTime);
+            return leavingTime + " " + "Добавлено!";
+        }
+
+        [HttpPut("ArrivalTimeRegister")]
+        public string Create(ArrivalTime arrivalTime, int visitorNumber)
+        {
+            if (!Storage.VisitorStorage.Check(visitorNumber)) return "Scam";
+            arrivalTime.EnterTime = Now;
+            Storage.ArrivalTimeStorage.Create(arrivalTime);
+            return arrivalTime + " " + "Добавлено!";
+        }
+    }
+}
+```
+

@@ -12,7 +12,7 @@ namespace Zamay.Controllers
         [HttpPatch("RestorePass")]
         public Pass RestorePass(int PassNumber, Pass newPass)
         {
-            return Storage.PassStorage.Update(PassNumber, newPass); // Метод для восстановления пропуска
+            return Storage.PassStorage.Update(PassNumber, newPass);
         }
 
         [HttpPut("LeavingTimeRegister")]
