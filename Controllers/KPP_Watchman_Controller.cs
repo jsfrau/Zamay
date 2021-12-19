@@ -1,9 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
+﻿using Microsoft.AspNetCore.Mvc;
+using Zamay.Domain;
+using Zamay.Repository;
+using static System.DateTime;
 
 namespace Zamay.Controllers
 {
@@ -11,16 +9,28 @@ namespace Zamay.Controllers
     [Route("/watchman")]
     public class Vahter : ControllerBase
     {
-        [HttpGet("Exit-Or-Enter-Time-Register")]
-        public string ExitOrEnterTimeRegister(string str)
+        [HttpGet("RestorePass")]
+        public string RestorePass(string str)
         {
-            return str; // Метод для регистрации времени прибытия или отбытия
+            return str; // Метод для восстановления пропуска
         }
-        [HttpGet("Issuing-pass")]
-        public string IssuingPass(string str)
+
+        [HttpPut("LeavingTimeRegister")]
+        public string Create(LeavingTime leavingTime, int visitorNumber)
         {
-            return str; // Метод для выдачи пропуска
+            if (!Storage.VisitorStorage.Check(visitorNumber)) return "Scam";
+            leavingTime.LeaveTime = Now;
+            Storage.LeavingTimeStorage.Create(leavingTime);
+            return leavingTime + " " + "Добавлено!";
         }
-        
+
+        [HttpPut("ArrivalTimeRegister")]
+        public string Create(ArrivalTime arrivalTime, int visitorNumber)
+        {
+            if (!Storage.VisitorStorage.Check(visitorNumber)) return "Scam";
+            arrivalTime.EnterTime = Now;
+            Storage.ArrivalTimeStorage.Create(arrivalTime);
+            return arrivalTime + " " + "Добавлено!";
+        }
     }
 }

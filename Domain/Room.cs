@@ -1,6 +1,3 @@
-using System;
-
-
 namespace Zamay.Domain
 {
     public class Room

@@ -1,12 +1,10 @@
-using Zamay.Domain;
 using System.Collections.Generic;
-
 
 namespace Zamay.Domain
 {
     public class ArrivalTimeStorage
     {
-        private Dictionary<int, ArrivalTime> ArrivalTimes { get; } = new Dictionary<int, ArrivalTime>();
+        private Dictionary<int, ArrivalTime> ArrivalTimes { get; } = new();
 
         public void Create(ArrivalTime arrivalTime)
         {

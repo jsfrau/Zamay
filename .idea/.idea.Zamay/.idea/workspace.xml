@@ -16,6 +16,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Repository/ArrivalTimeStorage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/bc3d7024e97f4f818de53bc3c23872b48f5790/E2/ThrowHelper.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="22TUuV3QsMmgVWINFLdRxSyta6v" />
   <component name="ProjectViewState">
@@ -23,6 +24,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34994584" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -70,7 +73,7 @@
       <option name="presentableId" value="Default" />
       <updated>1639861295956</updated>
       <workItem from="1639861309420" duration="1312000" />
-      <workItem from="1639862817134" duration="4181000" />
+      <workItem from="1639862817134" duration="17388000" />
     </task>
     <servers />
   </component>

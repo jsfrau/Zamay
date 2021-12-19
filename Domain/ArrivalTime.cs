@@ -1,5 +1,4 @@
 using System;
-using Zamay.Domain;
 
 namespace Zamay.Domain
 {

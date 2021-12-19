@@ -1,12 +1,11 @@
-using Zamay.Domain;
 using System.Collections.Generic;
-using System.Data.SqlClient;
+using Zamay.Domain;
 
 namespace Zamay.Repository
 {
     public class VisitorStorage
     {
-        private Dictionary<int, Visitor> visitors { get; } = new Dictionary<int, Visitor>();
+        private Dictionary<int, Visitor> visitors { get; } = new();
 
         public void Create(Visitor visitor)
         {
@@ -27,6 +26,13 @@ namespace Zamay.Repository
         public bool Delete(int visitorNumber)
         {
             return visitors.Remove(visitorNumber);
+        }
+
+        public bool Check(int visitorNumber)
+        {
+            if (visitors[visitorNumber] != null)
+                return true;
+            return false;
         }
     }
 }

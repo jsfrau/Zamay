@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
+﻿using Microsoft.AspNetCore.Mvc;
 
 namespace Zamay.Controllers
 {
@@ -16,6 +11,7 @@ namespace Zamay.Controllers
         {
             return str; // Метод для заселения студента
         }
+
         [HttpGet("Issue-a-pass")]
         public string IssueAPass(string str)
         {
