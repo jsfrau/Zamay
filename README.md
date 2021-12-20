@@ -410,3 +410,9 @@ Watchman
 [1] https://ntagil.org/bezopas/info.php?SECTION_ID=1216
 
 [2] http://bio5.ru/articles/kontrol-dostupa/kontrolno-propusknoi-rezhim-na-predpriyatii.html
+
+[3] https://www.rgsec.ru/lip/skud-kpp.html
+
+[4] https://www.lucidchart.com/pages/ru/erd-диаграмма
+
+[5] https://habr.com/ru/company/trinion/blog/340064/
