@@ -32,5 +32,17 @@ namespace Zamay.Controllers
             Storage.ArrivalTimeStorage.Create(arrivalTime);
             return arrivalTime + " " + "Добавлено!";
         }
+        
+        [HttpGet("GetInfoAboutVisitor")]
+        public Visitor Read(int visitorNumber)
+        {
+            return Storage.VisitorStorage.Read(visitorNumber);
+        }
+
+        [HttpDelete("DeleteVisitor")]
+        public bool Delete(int visitorNumber)
+        {
+            return Storage.VisitorStorage.Delete(visitorNumber);
+        }
     }
 }

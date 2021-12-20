@@ -4,15 +4,15 @@
 
 [Введение](#introdution)
 
-[1) Описание предметной области](#domainDescription)
+[1 Описание предметной области](#domainDescription)
 
-[2) Сравнительный анализ существующих программных решений](#existSoftware)
+[2 Сравнительный анализ существующих программных решений](#existSoftware)
 
-[3) Разработка](#Development)
+[3 Разработка](#Development)
 
-[4) Проектирование системы](#Systemdesign)
+[4 Проектирование системы](#Systemdesign)
 
-[5) Тестирование системы](#Checkingandtestingthesystem)
+[5 Тестирование системы](#Checkingandtestingthesystem)
 
 [Заключение](#Conclusion)
 
@@ -220,6 +220,8 @@ namespace Zamay.Domain
 
 ![img_3.png](img_3.png)
 
+Рисунок 6 - Список хранилищ
+
 Пример кода контроллера посетителя:
 ```csharp
 using Microsoft.AspNetCore.Mvc;
@@ -278,7 +280,34 @@ namespace Zamay.Controllers
             Storage.ArrivalTimeStorage.Create(arrivalTime);
             return arrivalTime + " " + "Добавлено!";
         }
+        
+        [HttpGet("GetInfoAboutVisitor")]
+        public Visitor Read(int visitorNumber)
+        {
+            return Storage.VisitorStorage.Read(visitorNumber);
+        }
+
+        [HttpDelete("DeleteVisitor")]
+        public bool Delete(int visitorNumber)
+        {
+            return Storage.VisitorStorage.Delete(visitorNumber);
+        }
     }
 }
 ```
 
+<a name="Checkingandtestingthesystem"/>
+
+## Тестирование системы
+
+При запуске приложения открывается вкладка браузера Swagger UI, в котором представлены котроллеры и их операции над сущностями.
+
+![img_5.png](img_5.png) 
+
+Рисунок 7 - Список контроллеров
+
+Проверка работы методов CRUD (Create - создание, Read - чтение, Update - обновление, Delete - удаление) в контроллере Watchman
+
+![img_6.png](img_6.png)
+
+Рисунок 8 - Список методов оператора Watchman
