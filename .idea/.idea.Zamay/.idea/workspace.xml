@@ -6,17 +6,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa3cb2cc-93ea-4faa-9745-8061d1920f30" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/img_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img_9.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Zamay/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Zamay/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/KPP_Watchman_Controller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/KPP_Watchman_Controller.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/Zamay.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/Zamay.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/Zamay.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/Zamay.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/ref/Zamay.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/ref/Zamay.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/Zamay.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/Zamay.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/Zamay.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/Zamay.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/ref/Zamay.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/ref/Zamay.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +85,7 @@
       <updated>1639861295956</updated>
       <workItem from="1639861309420" duration="1312000" />
       <workItem from="1639862817134" duration="17388000" />
-      <workItem from="1639938265211" duration="8761000" />
+      <workItem from="1639938265211" duration="10191000" />
     </task>
     <servers />
   </component>
