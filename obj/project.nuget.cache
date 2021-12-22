@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "z+xfwCurFRMhXV1fiGSkeTNE+Zk1j8RBvicWev1HVdoJKSXvyeKIRkaSu1ll+OH/wlYF2FMYMXDJqYg0zz+l1Q==",
-  "success": true,
+  "dgSpecHash": "Q0Pv14gzFAyybn468rgr7xn/npZloc0QSYHu4fbgKm474XQcQr5G19O3ZAApwAkHvkVpjAdulb6sKZgJr6y0Ew==",
+  "success": false,
   "projectFilePath": "C:\\Users\\User\\Documents\\GitHub\\Zamay\\Zamay.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
@@ -11,5 +11,15 @@
     "C:\\Users\\User\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.NETCore.App.Host.win-x64. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages, nuget.org",
+      "libraryId": "Microsoft.NETCore.App.Host.win-x64",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
 }
