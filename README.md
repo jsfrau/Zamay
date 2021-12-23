@@ -420,19 +420,19 @@ Watchman (см. Рисунок 9)
 
 ## Список используемой литературы
 
-  <a name="sourse_1"> 
+  <a name="sourse_1"> </a>
 
     1) Методика организации контрольно-пропускного режима на предприятии (организации) [Электронный ресурс]. - Режим доступа: https://ntagil.org/bezopas/info.php?SECTION_ID=1216 (дата доступа: 10.10.2021).
 
-  <a name="sourse_2"> 
+  <a name="sourse_2"> </a>
 
     2) Контролно-пропускной режим на предприятии [Электронный ресурс]. - Режим доступа: http://bio5.ru/articles/kontrol-dostupa/kontrolno-propusknoi-rezhim-na-predpriyatii.html (дата доступа: 08.10.2021).
-  <a name="sourse_3"> 
+  <a name="sourse_3"> </a>
 
     3) СКУД контрольно-пропускных пунктов [Электронный ресурс]. - Режим доступа: https://www.rgsec.ru/lip/skud-kpp.html (дата доступа: 05.10.2021).
-  <a name="sourse_4"> 
+  <a name="sourse_4"> </a>
 
     4) СКУД контрольно-пропускных пунктов [Электронный ресурс]. - Режим доступа: https://www.lucidchart.com/pages/ru/erd-диаграмма (дата доступа: 03.10.2021).
-  <a name="sourse_5">
+  <a name="sourse_5"></a>
 
     5) Что такое DFD (диаграммы потоков данных) [Электронный ресурс]. - Режим доступа: https://habr.com/ru/company/trinion/blog/340064/ (дата доступа: 01.10.2021).
