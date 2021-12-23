@@ -416,16 +416,23 @@ Watchman (см. Рисунок 9)
 функции создания, чтения, редактирования и удаления записей. Это система актуальна и перспективна для дальнейшей
 разработки.
 
-<a name="Listofliterature"/>
+<a name="Listofliterature"/></a>
 
 ## Список используемой литературы
 
-[1] https://ntagil.org/bezopas/info.php?SECTION_ID=1216
+  <a name="sourse_1"> 
 
-[2] http://bio5.ru/articles/kontrol-dostupa/kontrolno-propusknoi-rezhim-na-predpriyatii.html
+    1) Методика организации контрольно-пропускного режима на предприятии (организации) [Электронный ресурс]. - Режим доступа: https://ntagil.org/bezopas/info.php?SECTION_ID=1216 (дата доступа: 10.10.2021).
 
-[3] https://www.rgsec.ru/lip/skud-kpp.html
+  <a name="sourse_2"> 
 
-[4] https://www.lucidchart.com/pages/ru/erd-диаграмма
+    2) Контролно-пропускной режим на предприятии [Электронный ресурс]. - Режим доступа: http://bio5.ru/articles/kontrol-dostupa/kontrolno-propusknoi-rezhim-na-predpriyatii.html (дата доступа: 08.10.2021).
+  <a name="sourse_3"> 
 
-[5] https://habr.com/ru/company/trinion/blog/340064/
+    3) СКУД контрольно-пропускных пунктов [Электронный ресурс]. - Режим доступа: https://www.rgsec.ru/lip/skud-kpp.html (дата доступа: 05.10.2021).
+  <a name="sourse_4"> 
+
+    4) СКУД контрольно-пропускных пунктов [Электронный ресурс]. - Режим доступа: https://www.lucidchart.com/pages/ru/erd-диаграмма (дата доступа: 03.10.2021).
+  <a name="sourse_5">
+
+    5) Что такое DFD (диаграммы потоков данных) [Электронный ресурс]. - Режим доступа: https://habr.com/ru/company/trinion/blog/340064/ (дата доступа: 01.10.2021).
