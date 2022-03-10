@@ -268,16 +268,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1101",
-      "level": "Error",
-      "message": "Unable to find package Microsoft.NETCore.App.Host.win-x64. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages, nuget.org",
-      "libraryId": "Microsoft.NETCore.App.Host.win-x64",
-      "targetGraphs": [
-        "net5.0"
-      ]
-    }
-  ]
+  }
 }

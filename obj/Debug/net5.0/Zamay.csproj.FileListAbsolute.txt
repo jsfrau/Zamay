@@ -18,7 +18,6 @@ C:\Users\User\Documents\GitHub\Zamay\obj\Debug\net5.0\Zamay.csproj.CoreCompileIn
 C:\Users\User\Documents\GitHub\Zamay\obj\Debug\net5.0\Zamay.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\User\Documents\GitHub\Zamay\obj\Debug\net5.0\Zamay.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\User\Documents\GitHub\Zamay\obj\Debug\net5.0\staticwebassets\Zamay.StaticWebAssets.Manifest.cache
-C:\Users\User\Documents\GitHub\Zamay\obj\Debug\net5.0\staticwebassets\Zamay.StaticWebAssets.xml
 C:\Users\User\Documents\GitHub\Zamay\obj\Debug\net5.0\scopedcss\bundle\Zamay.styles.css
 C:\Users\User\Documents\GitHub\Zamay\obj\Debug\net5.0\Zamay.RazorTargetAssemblyInfo.cache
 C:\Users\User\Documents\GitHub\Zamay\obj\Debug\net5.0\Zamay.csproj.CopyComplete

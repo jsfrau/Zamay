@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Zamay</id>
+    <version>1.0.0</version>
+    <authors>Zamay</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net5.0">
+        <dependency id="Swashbuckle.AspNetCore" version="5.6.3" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net5.0">
+        <frameworkReference name="Microsoft.AspNetCore.App" />
+      </group>
+    </frameworkReferences>
+    <contentFiles>
+      <files include="any/net5.0/appsettings.Development.json" buildAction="Content" />
+      <files include="any/net5.0/appsettings.json" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="C:\Users\User\Documents\GitHub\Zamay\bin\Debug\net5.0\Zamay.runtimeconfig.json" target="lib\net5.0\Zamay.runtimeconfig.json" />
+    <file src="C:\Users\User\Documents\GitHub\Zamay\bin\Debug\net5.0\Zamay.dll" target="lib\net5.0\Zamay.dll" />
+    <file src="C:\Users\User\Documents\GitHub\Zamay\appsettings.Development.json" target="content\appsettings.Development.json" />
+    <file src="C:\Users\User\Documents\GitHub\Zamay\appsettings.Development.json" target="contentFiles\any\net5.0\appsettings.Development.json" />
+    <file src="C:\Users\User\Documents\GitHub\Zamay\appsettings.json" target="content\appsettings.json" />
+    <file src="C:\Users\User\Documents\GitHub\Zamay\appsettings.json" target="contentFiles\any\net5.0\appsettings.json" />
+  </files>
+</package>

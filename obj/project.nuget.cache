@@ -1,7 +1,7 @@
 {
   "version": 2,
   "dgSpecHash": "Q0Pv14gzFAyybn468rgr7xn/npZloc0QSYHu4fbgKm474XQcQr5G19O3ZAApwAkHvkVpjAdulb6sKZgJr6y0Ew==",
-  "success": false,
+  "success": true,
   "projectFilePath": "C:\\Users\\User\\Documents\\GitHub\\Zamay\\Zamay.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
@@ -9,17 +9,8 @@
     "C:\\Users\\User\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+    "C:\\Users\\User\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.13\\microsoft.netcore.app.host.win-x64.5.0.13.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1101",
-      "level": "Error",
-      "message": "Unable to find package Microsoft.NETCore.App.Host.win-x64. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages, nuget.org",
-      "libraryId": "Microsoft.NETCore.App.Host.win-x64",
-      "targetGraphs": [
-        "net5.0"
-      ]
-    }
-  ]
+  "logs": []
 }

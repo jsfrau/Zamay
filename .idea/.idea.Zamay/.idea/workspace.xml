@@ -8,7 +8,9 @@
     <projectFile profileName="Zamay">Zamay.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa3cb2cc-93ea-4faa-9745-8061d1920f30" name="Changes" comment="" />
+    <list default="true" id="aa3cb2cc-93ea-4faa-9745-8061d1920f30" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Zamay/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Zamay/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,7 +85,8 @@
       <workItem from="1639861309420" duration="1312000" />
       <workItem from="1639862817134" duration="17388000" />
       <workItem from="1639938265211" duration="11492000" />
-      <workItem from="1640217426393" duration="4591000" />
+      <workItem from="1640217426393" duration="4936000" />
+      <workItem from="1646330520403" duration="1614000" />
     </task>
     <servers />
   </component>
